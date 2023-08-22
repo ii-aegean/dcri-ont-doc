@@ -136,20 +136,6 @@ The ontology imports and reuses CIDOC CRM, CRMsci and SKOS ontologies."""@en ;
 #    Object Properties
 #################################################################
 
-###  http://w3id.org/dcri-ont/assignedRequirementAssessmentType
-<http://w3id.org/dcri-ont/assignedRequirementAssessmentType> rdf:type owl:ObjectProperty ;
-                                                             rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P141_assigned> ;
-                                                             rdfs:domain <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessment> ;
-                                                             rdfs:range <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> .
-
-
-###  http://w3id.org/dcri-ont/assignedRequirementAssessmentTypeTo
-<http://w3id.org/dcri-ont/assignedRequirementAssessmentTypeTo> rdf:type owl:ObjectProperty ;
-                                                               rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to> ;
-                                                               rdfs:domain <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessment> ;
-                                                               rdfs:range <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement> .
-
-
 ###  http://w3id.org/dcri-ont/considers
 <http://w3id.org/dcri-ont/considers> rdf:type owl:ObjectProperty ;
                                      owl:inverseOf <http://w3id.org/dcri-ont/isConsideredBy> ;
@@ -540,22 +526,6 @@ The ontology imports and reuses CIDOC CRM, CRMsci and SKOS ontologies."""@en ;
                                                                                         "είναι απόφαση"@el .
 
 
-###  http://w3id.org/dcri-ont/isEqualToOptionRankingPosition
-<http://w3id.org/dcri-ont/isEqualToOptionRankingPosition> rdf:type owl:ObjectProperty ;
-                                                          rdfs:domain <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> ;
-                                                          rdfs:range <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> ;
-                                                          rdfs:label "is equal to option ranking position"@en ,
-                                                                     "είναι ισοδύναμη με την θέση κατάταξης επιλογής"@el ;
-                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "is equal to option ranking position"@en ,
-                                                                                                          "είναι ισοδύναμη με την θέση κατάταξης επιλογής"@el .
-
-
-###  http://w3id.org/dcri-ont/isFollowingOptionRankingPosition
-<http://w3id.org/dcri-ont/isFollowingOptionRankingPosition> rdf:type owl:ObjectProperty ;
-                                                            rdfs:domain <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> ;
-                                                            rdfs:range <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> .
-
-
 ###  http://w3id.org/dcri-ont/isIndicatedBy
 <http://w3id.org/dcri-ont/isIndicatedBy> rdf:type owl:ObjectProperty ,
                                                   owl:AsymmetricProperty ,
@@ -678,16 +648,6 @@ The ontology imports and reuses CIDOC CRM, CRMsci and SKOS ontologies."""@en ;
                                                                                                 "είναι ποιοτική τιμή"@el .
 
 
-###  http://w3id.org/dcri-ont/isRankingPositionOfOption
-<http://w3id.org/dcri-ont/isRankingPositionOfOption> rdf:type owl:ObjectProperty ;
-                                                     rdfs:domain <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> ;
-                                                     rdfs:range <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
-                                                     rdfs:label "is ranking position of option"@en ,
-                                                                "είναι θέση κατάταξης της επιλογής"@el ;
-                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "is ranking position of option"@en ,
-                                                                                                     "είναι θέση κατάταξης της επιλογής"@el .
-
-
 ###  http://w3id.org/dcri-ont/isRequiredAbsenceBy
 <http://w3id.org/dcri-ont/isRequiredAbsenceBy> rdf:type owl:ObjectProperty ;
                                                owl:inverseOf <http://w3id.org/dcri-ont/requiresAbsenceOf> ;
@@ -778,16 +738,6 @@ The ontology imports and reuses CIDOC CRM, CRMsci and SKOS ontologies."""@en ;
                                                   "του κριτηρίου"@el ;
                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "of criterion"@en ,
                                                                                        "του κριτηρίου"@el .
-
-
-###  http://w3id.org/dcri-ont/ranksPosition
-<http://w3id.org/dcri-ont/ranksPosition> rdf:type owl:ObjectProperty ;
-                                         rdfs:domain <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPositionAssessment> ;
-                                         rdfs:range <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> ;
-                                         rdfs:label "ranks position"@en ,
-                                                    "κατατάσει την θέση"@el ;
-                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ranks position"@en ,
-                                                                                         "κατατάσει την θέση"@el .
 
 
 ###  http://w3id.org/dcri-ont/refersToPropertyType
@@ -5759,14 +5709,6 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
                                                                                                    owl:someValuesFrom <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity>
                                                                                                  ] ,
                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/CRMsci/O13_triggers> ;
-                                                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                                        owl:unionOf ( <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPositionAssessment>
-                                                                                                                                      <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessment>
-                                                                                                                                    )
-                                                                                                                      ]
-                                                                                                 ] ,
-                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                    owl:onProperty <http://w3id.org/dcri-ont/considers> ;
                                                                                                    owl:allValuesFrom <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption>
                                                                                                  ] ,
@@ -6142,36 +6084,6 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
                                                                                                                                        "Επιλογή Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el .
 
 
-###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition
-<http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition> rdf:type owl:Class ;
-                                                                                                      rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> ;
-                                                                                                      rdfs:comment "It refers to the ranking postion that an option of a decision-making process has, based on a certain criterion."@en ,
-                                                                                                                   "Αναφέρεται στην θέση κατάταξης που λαμβάνει μια επιλογή λήψης απόφασης, βάσει ενός κριτηρίου που έχει τεθεί"@el ;
-                                                                                                      rdfs:label "Conservation and Restoration Intervention Decision-making Option Ranking Position"@en ,
-                                                                                                                 "Θέση Κατάταξης Επιλογής Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el ;
-                                                                                                      <http://www.w3.org/2004/02/skos/core#definition> "It refers to the ranking postion that an option of a decision-making process has, based on a certain criterion."@en ,
-                                                                                                                                                       "Αναφέρεται στην θέση κατάταξης που λαμβάνει μια επιλογή λήψης απόφασης, βάσει ενός κριτηρίου που έχει τεθεί"@el ;
-                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Conservation and Restoration Intervention Decision-making Option Ranking Position"@en ,
-                                                                                                                                                      "Θέση Κατάταξης Επιλογής Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el .
-
-
-###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPositionAssessment
-<http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPositionAssessment> rdf:type owl:Class ;
-                                                                                                                rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment> ,
-                                                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                                                  owl:onProperty <http://w3id.org/dcri-ont/ranksPosition> ;
-                                                                                                                                  owl:allValuesFrom <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOptionRankingPosition>
-                                                                                                                                ] ;
-                                                                                                                rdfs:comment "It refers to the assessment process of the ranking position of an option, considered in the context of the decision-making process."@en ,
-                                                                                                                             "Αναφέρεται στην διαδικασία αξιολόγησης της θέσης κατάταξης μιας επιλογής που έχει ληφθεί υπόψη στο πλαίσιο μιας διαδικασίας λήψης απόφασης."@el ;
-                                                                                                                rdfs:label "Conservation and Restoration Intervention Decision-making Option Ranking Position Assessment"@en ,
-                                                                                                                           "Αξιολόγηση Θέσης Κατάταξης Επιλογής Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el ;
-                                                                                                                <http://www.w3.org/2004/02/skos/core#definition> "It refers to the assessment process of the ranking position of an option, considered in the context of the decision-making process."@en ,
-                                                                                                                                                                 "Αναφέρεται στην διαδικασία αξιολόγησης της θέσης κατάταξης μιας επιλογής που έχει ληφθεί υπόψη στο πλαίσιο μιας διαδικασίας λήψης απόφασης."@el ;
-                                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Conservation and Restoration Intervention Decision-making Option Ranking Position Assessment"@en ,
-                                                                                                                                                                "Αξιολόγηση Θέσης Κατάταξης Επιλογής Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el .
-
-
 ###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement> rdf:type owl:Class ;
                                                                                             rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> ,
@@ -6207,44 +6119,6 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
                                                                                                                                              "Αναφέρεται στην απαίτηση που προβλέπεται στο πλαίσιο μιας διαδικασίας λήψης απόφασης. Μπορεί είτε να αποτελεί απαίτηση από την πλευρά της επιλογής (ενδογενής απαίτηση) ή να αποτελεί απαίτηση από την πλευρά οποιουδήποτε εξωγενούς παράγοντα (εξωγενής απαίτηση) (π.χ., ο προϋπολογισμός του έργου συντήρησης)."@el ;
                                                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Conservation and Restoration Intervention Decision-making Requirement"@en ,
                                                                                                                                             "Απαίτηση Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el .
-
-
-###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessment
-<http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessment> rdf:type owl:Class ;
-                                                                                                      rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment> ,
-                                                                                                                      [ rdf:type owl:Restriction ;
-                                                                                                                        owl:onProperty <http://w3id.org/dcri-ont/assignedRequirementAssessmentType> ;
-                                                                                                                        owl:allValuesFrom <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType>
-                                                                                                                      ] ,
-                                                                                                                      [ rdf:type owl:Restriction ;
-                                                                                                                        owl:onProperty <http://w3id.org/dcri-ont/assignedRequirementAssessmentTypeTo> ;
-                                                                                                                        owl:allValuesFrom <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement>
-                                                                                                                      ] ;
-                                                                                                      rdfs:comment "It refers to the assessment process of the requirements that a decision-making process has stipulated."@en ,
-                                                                                                                   "Αναφέρεται στην διαδικασία αξιλόγησης των απαιτήσεων που έχουν τεθεί στο πλαίσιο μια διαδικασίας λήψης απόφασης."@el ;
-                                                                                                      rdfs:label "Conservation and Restoration Intervention Decision-making Requirement Assessment"@en ,
-                                                                                                                 "Αξιολόγηση Απαίτησης Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el ;
-                                                                                                      <http://www.w3.org/2004/02/skos/core#definition> "It refers to the assessment process of the requirements that a decision-making process has stipulated."@en ,
-                                                                                                                                                       "Αναφέρεται στην διαδικασία αξιλόγησης των απαιτήσεων που έχουν τεθεί στο πλαίσιο μια διαδικασίας λήψης απόφασης."@el ;
-                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Conservation and Restoration Intervention Decision-making Requirement Assessment"@en ,
-                                                                                                                                                      "Αξιολόγηση Απαίτησης Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el .
-
-
-###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType
-<http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> rdf:type owl:Class ;
-                                                                                                          rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ,
-                                                                                                                          [ rdf:type owl:Restriction ;
-                                                                                                                            owl:onProperty <http://w3id.org/dcri-ont/isPlanTypeOf> ;
-                                                                                                                            owl:allValuesFrom <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessment>
-                                                                                                                          ] ;
-                                                                                                          rdfs:comment "It refers to the type of a requirement assessment, of the requirement of a conservation and restoration intervention decision-making process."@en ,
-                                                                                                                       "Αναφέρεται στον τύπο αξιολόγησης μιας απαίτησης μιας διαδικασίας λήψης απόφασης επέμβασης συντήρησης και αποκατάστασης."@el ;
-                                                                                                          rdfs:label "Conservation and Restoration Intervention Decision-making Requirement Assessment Type"@en ,
-                                                                                                                     "Τύπος Αξιολόγηση Απαίτησης Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el ;
-                                                                                                          <http://www.w3.org/2004/02/skos/core#definition> "It refers to the type of a requirement assessment, of the requirement of a conservation and restoration intervention decision-making process."@en ,
-                                                                                                                                                           "Αναφέρεται στον τύπο αξιολόγησης μιας απαίτησης μιας διαδικασίας λήψης απόφασης επέμβασης συντήρησης και αποκατάστασης."@el ;
-                                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Conservation and Restoration Intervention Decision-making Requirement Assessment Type"@en ,
-                                                                                                                                                          "Τύπος Αξιολόγηση Απαίτησης Λήψης Απόφασης Επέμβασης Συντήρησης και Αποκατάστασης"@el .
 
 
 ###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionPlan
