@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://w3id.org/dcri-ont","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://w3id.org/dcri-ont","name":"DCRI-ont", "headline":"The DCRI ont includes the necessary entities and relations for the representation of decision making about interventions of Conservation and Restoration of Cultural Heritage, in terms of the issue, the criteria, the possible procedures and their requirements. The ontology imports and reuses CIDOC CRM, CRMsci, CRMntp and SKOS ontologies.", "datePublished":"Fri Jul 14 18:36:59 EEST 2023", "version":"1.0.0", "author":[{"@type":"Person","name":"Efthymia Moraitou"}], "contributor":[{"@type":"Person","name":"Efthymia Moraitou"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://w3id.org/dcri-ont","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://w3id.org/dcri-ont","name":"DCRI-ont", "headline":"The DCRI ont includes the necessary entities and relations for the representation of decision making about interventions of Conservation and Restoration of Cultural Heritage, in terms of the issue, the criteria, the possible procedures and their requirements. The ontology imports and reuses CIDOC CRM, CRMsci, CRMntp and SKOS ontologies.", "datePublished":"Thu Jan 04 20:14:53 EET 2024", "version":"1.0.0", "author":[{"@type":"Person","name":"Efthymia Moraitou"}], "contributor":[{"@type":"Person","name":"Efthymia Moraitou"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -65,13 +65,16 @@ $(function(){
 <dt>Authors:</dt>
 <dd>Efthymia Moraitou</dd>
 
+<dt>Contributors:</dt>
+<dd>Efthymia Moraitou</dd>
+
 <dt>Imported Ontologies:</dt>
 <dd><a href="http://www.w3.org/2004/02/skos/core">SKOS</a></dd>
 <dd><a href="http://www.cidoc-crm.org/cidoc-crm">CIDOC CRM</a></dd>
 <dd><a href="http://www.cidoc-crm.org/cidoc-crm/CRMsci">CRMsci</a></dd>
 <dd><a href="http://www.cidoc-crm.org/extensions/crmntp">CRMntp</a></dd>
 
-<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-CC0-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
 <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd><dt>Cite as:</dt>
 <dd>Efthymia Moraitou. DCRI-ont. Revision: 1.0.0.</dd>
@@ -207,17 +210,7 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/E78_Collection">Collection</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-   </li>
-   <li>
       <a href="#/CommercialAppellation" title="http://w3id.org/dcri-ont/CommercialAppellation">Commercial Appellation Commercial Appellation</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-         title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"
@@ -234,6 +227,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"
          title="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State">Condition State</a>
+   </li>
+   <li>
+      <a href="#/ConditionStateType" title="http://w3id.org/dcri-ont/ConditionStateType">Condition State Type Condition State Type</a>
    </li>
    <li>
       <a href="#/ConservationAndRestorationIntervention"
@@ -374,6 +370,9 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/E31_Document">Document</a>
    </li>
    <li>
+      <a href="#/DocumentType" title="http://w3id.org/dcri-ont/DocumentType">Document Type Document Type</a>
+   </li>
+   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"
          title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event">Encounter Event</a>
    </li>
@@ -504,10 +503,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"
          title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation">Observation</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#OrderedCollection"
-         title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"
@@ -980,33 +975,18 @@ This ontology has the following classes and properties.</span>
       <a href="#/hasActivityType" title="http://w3id.org/dcri-ont/hasActivityType">has activity type has activity type</a>
    </li>
    <li>
-      <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">
-         <span>has actor type</span>
-      </a>
+      <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type has actor type</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P139_has_alternative_form"
          title="http://www.cidoc-crm.org/cidoc-crm/P139_has_alternative_form">has alternative form</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
-   </li>
-   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term"
          title="http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term">has broader term</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#broaderTransitive"
-         title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
-   </li>
-   <li>
       <a href="#/hasCharacteristicOfType" title="http://w3id.org/dcri-ont/hasCharacteristicOfType">has characteristic of type has characteristic of type</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
    </li>
    <li>
       <a href="#/hasCommercialAppellation"
@@ -1019,6 +999,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P44_has_condition"
          title="http://www.cidoc-crm.org/cidoc-crm/P44_has_condition">has condition</a>
+   </li>
+   <li>
+      <a href="#/hasConditionStateType" title="http://w3id.org/dcri-ont/hasConditionStateType">has condition state type has condition state type</a>
    </li>
    <li>
       <a href="#/hasConservationAndRestorationInterventionSupplyType"
@@ -1076,7 +1059,7 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O12_has_dimension">has dimension</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#exactMatch" title="http://www.w3.org/2004/02/skos/core#exactMatch">has exact match</a>
+      <a href="#/hasDocumentType" title="http://w3id.org/dcri-ont/hasDocumentType">has document type has document type</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P95_has_formed"
@@ -1118,29 +1101,12 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/P72_has_language">has language</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#member" title="http://www.w3.org/2004/02/skos/core#member">has member</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#memberList" title="http://www.w3.org/2004/02/skos/core#memberList">has member list</a>
-   </li>
-   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"
          title="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">has modified</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#narrowMatch"
-         title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
-   </li>
-   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term"
          title="http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term">has narrower term</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#narrowerTransitive"
-         title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
    </li>
    <li>
       <a href="#/hasNotCharacteristicOfType"
@@ -1172,13 +1138,6 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#/hasQualitativeValue" title="http://w3id.org/dcri-ont/hasQualitativeValue">has qualitative value has qualitative value</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#relatedMatch"
-         title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"
@@ -1217,10 +1176,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P102_has_title"
          title="http://www.cidoc-crm.org/cidoc-crm/P102_has_title">has title</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#hasTopConcept"
-         title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P73_has_translation"
@@ -1281,9 +1236,7 @@ This ontology has the following classes and properties.</span>
       <a href="#/isActivityTypeOf" title="http://w3id.org/dcri-ont/isActivityTypeOf">is activity type of is activity type of</a>
    </li>
    <li>
-      <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">
-         <span>is actor type of</span>
-      </a>
+      <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of is actor type of</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with"
@@ -1322,6 +1275,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of"
          title="http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of">is condition of</a>
+   </li>
+   <li>
+      <a href="#/isConditionStateTypeOf" title="http://w3id.org/dcri-ont/isConditionStateTypeOf">is condition state type of is condition state type of</a>
    </li>
    <li>
       <a href="#/isConservationAndRestorationInterventionSupplySpecifiedBy"
@@ -1389,6 +1345,9 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O12i_is_dimension_of">is dimension of</a>
    </li>
    <li>
+      <a href="#/isDocumentTypeOf" title="http://w3id.org/dcri-ont/isDocumentTypeOf">is document type of is document type of</a>
+   </li>
+   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"
          title="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in">is documented in</a>
    </li>
@@ -1439,17 +1398,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
          title="http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by">is identified by</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-         title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-         title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
    </li>
    <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in"
@@ -1588,10 +1536,6 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/P102i_is_title_of">is title of</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#topConceptOf"
-         title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
-   </li>
-   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P73i_is_translation_of"
          title="http://www.cidoc-crm.org/cidoc-crm/P73i_is_translation_of">is translation of</a>
    </li>
@@ -1654,6 +1598,18 @@ This ontology has the following classes and properties.</span>
       <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"
          title="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type">
          <span>n t p141 did not assign entity of type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type"
+         title="http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type">
+         <span>n t p35 has not identified condition state of type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type"
+         title="http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type">
+         <span>n t p44 does not have condition of type</span>
       </a>
    </li>
    <li>
@@ -1889,6 +1845,18 @@ This ontology has the following classes and properties.</span>
       <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"
          title="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type">
          <span>t p141 assigned entity of type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type"
+         title="http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type">
+         <span>t p35 has identified condition state of type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type"
+         title="http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type">
+         <span>t p44 has condition of type</span>
       </a>
    </li>
    <li>
@@ -2279,9 +2247,6 @@ This ontology has the following classes and properties.</span>
          title="http://www.cidoc-crm.org/cidoc-crm/P90_has_value">has value</a>
    </li>
    <li>
-      <a href="#http://www.w3.org/2004/02/skos/core#notation" title="http://www.w3.org/2004/02/skos/core#notation">notation</a>
-   </li>
-   <li>
       <a href="#http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout"
          title="http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout">ongoing throughout</a>
    </li>
@@ -2318,7 +2283,7 @@ The DCRI-ont was developed following the HCOME collaborative engineering methodo
 
 <!--CROSSREF SECTION-->
    <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for DCRI-ont classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-This section provides details for each class and property defined by DCRI-ont.
+This section provides details for each class and property defined by Decision of Conservation and Restoration Intervention Ontology.
 <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
@@ -2389,17 +2354,7 @@ This section provides details for each class and property defined by DCRI-ont.
             title="http://www.cidoc-crm.org/cidoc-crm/E78_Collection">Collection</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-      </li>
-      <li>
          <a href="#/CommercialAppellation" title="http://w3id.org/dcri-ont/CommercialAppellation">Commercial Appellation Commercial Appellation</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-            title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"
@@ -2416,6 +2371,9 @@ This section provides details for each class and property defined by DCRI-ont.
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"
             title="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State">Condition State</a>
+      </li>
+      <li>
+         <a href="#/ConditionStateType" title="http://w3id.org/dcri-ont/ConditionStateType">Condition State Type Condition State Type</a>
       </li>
       <li>
          <a href="#/ConservationAndRestorationIntervention"
@@ -2556,6 +2514,9 @@ This section provides details for each class and property defined by DCRI-ont.
             title="http://www.cidoc-crm.org/cidoc-crm/E31_Document">Document</a>
       </li>
       <li>
+         <a href="#/DocumentType" title="http://w3id.org/dcri-ont/DocumentType">Document Type Document Type</a>
+      </li>
+      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"
             title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event">Encounter Event</a>
       </li>
@@ -2686,10 +2647,6 @@ This section provides details for each class and property defined by DCRI-ont.
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"
             title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation">Observation</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#OrderedCollection"
-            title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"
@@ -3083,7 +3040,7 @@ The CRM does not attempt to model the inadvertent actions of such actors. Indivi
          <dd>
             <a href="#http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through"
                title="http://www.cidoc-crm.org/cidoc-crm/P22i_acquired_title_through">acquired title through</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type has actor type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point"
                title="http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point">has contact point</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence"
@@ -3146,7 +3103,7 @@ The CRM does not attempt to model the inadvertent actions of such actors. Indivi
                title="http://www.cidoc-crm.org/cidoc-crm/P51_has_former_or_current_owner">has former or current owner</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P131i_identifies"
                title="http://www.cidoc-crm.org/cidoc-crm/P131i_identifies">identifies</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of is actor type of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of"
                title="http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of">is current or former residence of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by"
@@ -3224,12 +3181,12 @@ An E39 Actor will typically have more than one E82 Actor Appellation, and instan
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of</a>
+            <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of is actor type of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type</a>
+            <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type has actor type</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -3695,43 +3652,6 @@ Collective objects in the general sense, like a tomb full of gifts, a folder wit
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#Collection">
-      <h3>Collection<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#Collection</p>
-      <div class="comment">
-         <span class="markdown">A meaningful collection of concepts.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>has sub-classes</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#OrderedCollection"
-               title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#member" title="http://www.w3.org/2004/02/skos/core#member">has member</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="/CommercialAppellation">
       <h3>Commercial Appellation<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -3767,97 +3687,6 @@ Collective objects in the general sense, like a tomb full of gifts, a folder wit
             <a href="#/hasCommercialAppellation"
                title="http://w3id.org/dcri-ont/hasCommercialAppellation">has commercial appellation has commercial appellation</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#Concept">
-      <h3>Concept<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#Concept</p>
-      <div class="comment">
-         <span class="markdown">An idea or notion; a unit of thought.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#http://www.cidoc-crm.org/cidoc-crm/E55_Type" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-               title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#topConceptOf"
-               title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#hasTopConcept"
-               title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-               title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-               title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#ConceptScheme">
-      <h3>Concept Scheme<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#ConceptScheme</p>
-      <div class="comment">
-         <span class="markdown">A set of concepts, optionally including statements about semantic relationships between those concepts.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <dl>
-         <dt>Example</dt>
-         <dd>
-            <pre>Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.</pre>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#hasTopConcept"
-               title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#topConceptOf"
-               title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -3964,6 +3793,10 @@ The condition assessment may be carried out by inspection, measurement or throug
                title="http://www.cidoc-crm.org/cidoc-crm/P34_concerned">concerned</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P35_has_identified"
                title="http://www.cidoc-crm.org/cidoc-crm/P35_has_identified">has identified</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type"
+               title="http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type">n t p35 has not identified condition state of type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type"
+               title="http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type">t p35 has identified condition state of type</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -4002,6 +3835,7 @@ An instance of this class describes the prevailing physical condition of any mat
                title="http://www.cidoc-crm.org/cidoc-crm/P5_consists_of">consists of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of"
                title="http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of">forms part of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasConditionStateType" title="http://w3id.org/dcri-ont/hasConditionStateType">has condition state type has condition state type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of"
                title="http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of">is condition of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P35i_was_identified_by"
@@ -4018,6 +3852,42 @@ An instance of this class describes the prevailing physical condition of any mat
                title="http://www.cidoc-crm.org/cidoc-crm/P44_has_condition">has condition</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P35_has_identified"
                title="http://www.cidoc-crm.org/cidoc-crm/P35_has_identified">has identified</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isConditionStateTypeOf" title="http://w3id.org/dcri-ont/isConditionStateTypeOf">is condition state type of is condition state type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/ConditionStateType">
+      <h3>Condition State Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <h3>Condition State Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/dcri-ont/ConditionStateType</p>
+      <div class="comment">
+         <span class="markdown">It refers to the type of a condition state.</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">It refers to the type of a condition state.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.cidoc-crm.org/cidoc-crm/E55_Type" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isConditionStateTypeOf" title="http://w3id.org/dcri-ont/isConditionStateTypeOf">is condition state type of is condition state type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasConditionStateType" title="http://w3id.org/dcri-ont/hasConditionStateType">has condition state type has condition state type</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -4034,10 +3904,10 @@ An instance of this class describes the prevailing physical condition of any mat
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/ConservationAndRestorationIntervention</p>
       <div class="comment">
-         <span class="markdown">It refers to an implemented activity related to a conservation object (of any kind, movable or immovable Cultural Heritage) or/and its environment, and it aims to the preservation or/and the restoration of the object to the best possible condition.</span>
+         <span class="markdown">It refers to an implemented activity which aims to the preservation or/and the restoration of the object to the best possible condition, through the direct or indirect (i.e., environment) intervention to a conservation object (of any kind, movable or immovable Cultural Heritage).</span>
       </div>
       <div class="comment">
-         <span class="markdown">It refers to an implemented activity related to a conservation object (of any kind, movable or immovable Cultural Heritage) or/and its environment, and it aims to the preservation or/and the restoration of the object to the best possible condition.</span>
+         <span class="markdown">It refers to an implemented activity which aims to the preservation or/and the restoration of the object to the best possible condition, through the direct or indirect (i.e., environment) intervention to a conservation object (of any kind, movable or immovable Cultural Heritage).</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -4067,10 +3937,10 @@ An instance of this class describes the prevailing physical condition of any mat
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-maker</p>
       <div class="comment">
-         <span class="markdown">It refers to the expert which perfom the decision-making process in order to decide for a conservation and restoration intervention.</span>
+         <span class="markdown">It refers to the conservator which performs the decision-making process in order to decide for a conservation and restoration intervention.</span>
       </div>
       <div class="comment">
-         <span class="markdown">It refers to the expert which perfom the decision-making process in order to decide for a conservation and restoration intervention.</span>
+         <span class="markdown">It refers to the conservator which performs the decision-making process in order to decide for a conservation and restoration intervention.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -4556,10 +4426,10 @@ An instance of this class describes the prevailing physical condition of any mat
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption</p>
       <div class="comment">
-         <span class="markdown">It refers to the option that a decision-making process considers as possible to be chosen.</span>
+         <span class="markdown">It refers to the option that a decision-making process considers as possible to be chosen for a certain issue.</span>
       </div>
       <div class="comment">
-         <span class="markdown">It refers to the option that a decision-making process considers as possible to be chosen.</span>
+         <span class="markdown">It refers to the option that a decision-making process considers as possible to be chosen for a certain issue.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -4618,13 +4488,18 @@ An instance of this class describes the prevailing physical condition of any mat
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#/isNotSatisfiedBy" title="http://w3id.org/dcri-ont/isNotSatisfiedBy">is not satisfied by is not satisfied by</a>
+            <a href="#/isAboutCertainType" title="http://w3id.org/dcri-ont/isAboutCertainType">is about certain type is about certain type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isNotSatisfiedBy" title="http://w3id.org/dcri-ont/isNotSatisfiedBy">is not satisfied by is not satisfied by</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/isRequirementOf" title="http://w3id.org/dcri-ont/isRequirementOf">is requirement of is requirement of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/requiresAbsenceOf" title="http://w3id.org/dcri-ont/requiresAbsenceOf">requires absence of requires absence of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/requiresDimensionPropertyType"
                title="http://w3id.org/dcri-ont/requiresDimensionPropertyType">requires dimension property type requires dimension property type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/requiresDimensionValue"
                title="http://w3id.org/dcri-ont/requiresDimensionValue">requires dimension value requires dimension value</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/requiresMaximumDimensionValue"
+               title="http://w3id.org/dcri-ont/requiresMaximumDimensionValue">requires maximum dimension value requires maximum dimension value</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#/requiresMinimumDimensionValue"
+               title="http://w3id.org/dcri-ont/requiresMinimumDimensionValue">requires minimum dimension value requires minimum dimension value</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#/requiresPresenceOf" title="http://w3id.org/dcri-ont/requiresPresenceOf">requires presence of requires presence of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -4652,10 +4527,10 @@ An instance of this class describes the prevailing physical condition of any mat
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/ConservationAndRestorationInterventionPlan</p>
       <div class="comment">
-         <span class="markdown">It refers to a plan (or a standard process) related to a conservation object (of any kind, movable or immovable Cultural Heritage) or/and its environment, and it aims to the preservation or/and the restoration of the object to the best possible condition.</span>
+         <span class="markdown">It refers to a plan (or a standard process) which aims to the preservation or/and the restoration of the object to the best possible condition, through the direct or indirect (i.e., environment) intervention to a conservation object (of any kind, movable or immovable Cultural Heritage).</span>
       </div>
       <div class="comment">
-         <span class="markdown">It refers to a plan (or a standard process) related to a conservation object (of any kind, movable or immovable Cultural Heritage) or/and its environment, and it aims to the preservation or/and the restoration of the object to the best possible condition.</span>
+         <span class="markdown">It refers to a plan (or a standard process) which aims to the preservation or/and the restoration of the object to the best possible condition, through the direct or indirect (i.e., environment) intervention to a conservation object (of any kind, movable or immovable Cultural Heritage).</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -5322,12 +5197,49 @@ These propositions may be expressed in text, graphics, images, audiograms, video
          <dd>
             <a href="#http://www.cidoc-crm.org/cidoc-crm/P70_documents"
                title="http://www.cidoc-crm.org/cidoc-crm/P70_documents">documents</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasDocumentType" title="http://w3id.org/dcri-ont/hasDocumentType">has document type has document type</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"
+            <a href="#/isDocumentTypeOf" title="http://w3id.org/dcri-ont/isDocumentTypeOf">is document type of is document type of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"
                title="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in">is documented in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/DocumentType">
+      <h3>Document Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <h3>Document Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/dcri-ont/DocumentType</p>
+      <div class="comment">
+         <span class="markdown">It refers to the type of a document.</span>
+      </div>
+      <div class="comment">
+         <span class="markdown">It refers to the type of a document.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.cidoc-crm.org/cidoc-crm/E55_Type" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/isDocumentTypeOf" title="http://w3id.org/dcri-ont/isDocumentTypeOf">is document type of is document type of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasDocumentType" title="http://w3id.org/dcri-ont/hasDocumentType">has document type has document type</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -6706,35 +6618,6 @@ instance of S4 Observation.</span>
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#OrderedCollection">
-      <h3>Ordered Collection<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#OrderedCollection</p>
-      <div class="comment">
-         <span class="markdown">An ordered collection of concepts, where both the grouping and the ordering are meaningful.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#http://www.w3.org/2004/02/skos/core#memberList" title="http://www.w3.org/2004/02/skos/core#memberList">has member list</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">
       <h3>Part Addition<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -7356,10 +7239,14 @@ The CIDOC CRM is generally not concerned with amounts of matter in fluid or gase
                title="http://www.cidoc-crm.org/cidoc-crm/P58_has_section_definition">has section definition</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"
                title="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of">is composed of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type"
+               title="http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type">n t p44 does not have condition of type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P156_occupies"
                title="http://www.cidoc-crm.org/cidoc-crm/P156_occupies">occupies</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P157i_provides_reference_space_for"
                title="http://www.cidoc-crm.org/cidoc-crm/P157i_provides_reference_space_for">provides reference space for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type"
+               title="http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type">t p44 has condition of type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P111i_was_added_by"
                title="http://www.cidoc-crm.org/cidoc-crm/P111i_was_added_by">was added by</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/O18i_was_altered_by"
@@ -7927,10 +7814,10 @@ This class also comprises items that are “about” something in the sense of a
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/QualitativeValue</p>
       <div class="comment">
-         <span class="markdown">It refers to the qualitative characteristics of an intervention entity, which are specified by special terms.</span>
+         <span class="markdown">It refers to the qualitative characteristics of an observable entity, which are specified by special terms.</span>
       </div>
       <div class="comment">
-         <span class="markdown">It refers to the qualitative characteristics of an intervention entity, which are specified by special terms.</span>
+         <span class="markdown">It refers to the qualitative characteristics of an observable entity, which are specified by special terms.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -8825,9 +8712,10 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
          <dd>
             <a href="#/ActivityType" title="http://w3id.org/dcri-ont/ActivityType">Activity Type Activity Type</a>
             <sup class="type-c" title="class">c</sup>, <a href="#/ActorType" title="http://w3id.org/dcri-ont/ActorType">Actor Type Actor Type</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/ConditionStateType" title="http://w3id.org/dcri-ont/ConditionStateType">Condition State Type Condition State Type</a>
             <sup class="type-c" title="class">c</sup>, <a href="#/ConservationObjectType"
                title="http://w3id.org/dcri-ont/ConservationObjectType">Conservation Object Type Conservation Object Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#/DocumentType" title="http://w3id.org/dcri-ont/DocumentType">Document Type Document Type</a>
             <sup class="type-c" title="class">c</sup>, <a href="#/EquipmentType" title="http://w3id.org/dcri-ont/EquipmentType">Equipment Type Equipment Type</a>
             <sup class="type-c" title="class">c</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/E56_Language"
                title="http://www.cidoc-crm.org/cidoc-crm/E56_Language">Language</a>
@@ -8902,6 +8790,7 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
             <sup class="type-op" title="object property">op</sup>, <a href="#/hasNotCharacteristicOfType"
                title="http://w3id.org/dcri-ont/hasNotCharacteristicOfType">has not characteristic of type has not characteristic of type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P2_has_type" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">has type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/isAboutCertainType" title="http://w3id.org/dcri-ont/isAboutCertainType">is about certain type is about certain type</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/requiresAbsenceOf" title="http://w3id.org/dcri-ont/requiresAbsenceOf">requires absence of requires absence of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#/requiresPresenceOf" title="http://w3id.org/dcri-ont/requiresPresenceOf">requires presence of requires presence of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/O20_sampled_from_type_of_part"
@@ -9330,33 +9219,18 @@ The class E36 Visual Item provides a means of identifying and linking together i
          <a href="#/hasActivityType" title="http://w3id.org/dcri-ont/hasActivityType">has activity type has activity type</a>
       </li>
       <li>
-         <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">
-            <span>has actor type</span>
-         </a>
+         <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type has actor type</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P139_has_alternative_form"
             title="http://www.cidoc-crm.org/cidoc-crm/P139_has_alternative_form">has alternative form</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
-      </li>
-      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term"
             title="http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term">has broader term</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#broaderTransitive"
-            title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
-      </li>
-      <li>
          <a href="#/hasCharacteristicOfType" title="http://w3id.org/dcri-ont/hasCharacteristicOfType">has characteristic of type has characteristic of type</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
       </li>
       <li>
          <a href="#/hasCommercialAppellation"
@@ -9369,6 +9243,9 @@ The class E36 Visual Item provides a means of identifying and linking together i
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P44_has_condition"
             title="http://www.cidoc-crm.org/cidoc-crm/P44_has_condition">has condition</a>
+      </li>
+      <li>
+         <a href="#/hasConditionStateType" title="http://w3id.org/dcri-ont/hasConditionStateType">has condition state type has condition state type</a>
       </li>
       <li>
          <a href="#/hasConservationAndRestorationInterventionSupplyType"
@@ -9426,7 +9303,7 @@ The class E36 Visual Item provides a means of identifying and linking together i
             title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O12_has_dimension">has dimension</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#exactMatch" title="http://www.w3.org/2004/02/skos/core#exactMatch">has exact match</a>
+         <a href="#/hasDocumentType" title="http://w3id.org/dcri-ont/hasDocumentType">has document type has document type</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P95_has_formed"
@@ -9468,29 +9345,12 @@ The class E36 Visual Item provides a means of identifying and linking together i
             title="http://www.cidoc-crm.org/cidoc-crm/P72_has_language">has language</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#member" title="http://www.w3.org/2004/02/skos/core#member">has member</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#memberList" title="http://www.w3.org/2004/02/skos/core#memberList">has member list</a>
-      </li>
-      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"
             title="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">has modified</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#narrowMatch"
-            title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
-      </li>
-      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term"
             title="http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term">has narrower term</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#narrowerTransitive"
-            title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
       </li>
       <li>
          <a href="#/hasNotCharacteristicOfType"
@@ -9522,13 +9382,6 @@ The class E36 Visual Item provides a means of identifying and linking together i
       </li>
       <li>
          <a href="#/hasQualitativeValue" title="http://w3id.org/dcri-ont/hasQualitativeValue">has qualitative value has qualitative value</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#relatedMatch"
-            title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"
@@ -9567,10 +9420,6 @@ The class E36 Visual Item provides a means of identifying and linking together i
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P102_has_title"
             title="http://www.cidoc-crm.org/cidoc-crm/P102_has_title">has title</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#hasTopConcept"
-            title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P73_has_translation"
@@ -9631,9 +9480,7 @@ The class E36 Visual Item provides a means of identifying and linking together i
          <a href="#/isActivityTypeOf" title="http://w3id.org/dcri-ont/isActivityTypeOf">is activity type of is activity type of</a>
       </li>
       <li>
-         <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">
-            <span>is actor type of</span>
-         </a>
+         <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of is actor type of</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with"
@@ -9672,6 +9519,9 @@ The class E36 Visual Item provides a means of identifying and linking together i
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of"
             title="http://www.cidoc-crm.org/cidoc-crm/P44i_is_condition_of">is condition of</a>
+      </li>
+      <li>
+         <a href="#/isConditionStateTypeOf" title="http://w3id.org/dcri-ont/isConditionStateTypeOf">is condition state type of is condition state type of</a>
       </li>
       <li>
          <a href="#/isConservationAndRestorationInterventionSupplySpecifiedBy"
@@ -9739,6 +9589,9 @@ The class E36 Visual Item provides a means of identifying and linking together i
             title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O12i_is_dimension_of">is dimension of</a>
       </li>
       <li>
+         <a href="#/isDocumentTypeOf" title="http://w3id.org/dcri-ont/isDocumentTypeOf">is document type of is document type of</a>
+      </li>
+      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"
             title="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in">is documented in</a>
       </li>
@@ -9789,17 +9642,6 @@ The class E36 Visual Item provides a means of identifying and linking together i
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
             title="http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by">is identified by</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-            title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-            title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
       </li>
       <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in"
@@ -9938,10 +9780,6 @@ The class E36 Visual Item provides a means of identifying and linking together i
             title="http://www.cidoc-crm.org/cidoc-crm/P102i_is_title_of">is title of</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#topConceptOf"
-            title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
-      </li>
-      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P73i_is_translation_of"
             title="http://www.cidoc-crm.org/cidoc-crm/P73i_is_translation_of">is translation of</a>
       </li>
@@ -10004,6 +9842,18 @@ The class E36 Visual Item provides a means of identifying and linking together i
          <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"
             title="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type">
             <span>n t p141 did not assign entity of type</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type"
+            title="http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type">
+            <span>n t p35 has not identified condition state of type</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type"
+            title="http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type">
+            <span>n t p44 does not have condition of type</span>
          </a>
       </li>
       <li>
@@ -10239,6 +10089,18 @@ The class E36 Visual Item provides a means of identifying and linking together i
          <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"
             title="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type">
             <span>t p141 assigned entity of type</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type"
+            title="http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type">
+            <span>t p35 has identified condition state of type</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type"
+            title="http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type">
+            <span>t p44 has condition of type</span>
          </a>
       </li>
       <li>
@@ -12995,6 +12857,10 @@ P20 had specific purpose (was purpose of) implies that an activity succeeded in 
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
+      <h3>has actor type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/hasActorType</p>
       <div class="description">
@@ -13016,7 +12882,7 @@ P20 had specific purpose (was purpose of) implies that an activity succeeded in 
             </dd>
             <dt>is inverse of</dt>
             <dd>
-               <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of</a>
+               <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of is actor type of</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -13052,80 +12918,6 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#broader">
-      <h3>has broader<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#broader</p>
-      <div class="comment">
-         <span class="markdown">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">Relates a concept to a concept that is more general in meaning.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broaderTransitive"
-                  title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#broadMatch">
-      <h3>has broader match<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#broadMatch</p>
-      <div class="comment">
-         <span class="markdown">skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrowMatch"
-                  title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term">
       <h3>has broader term<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -13149,47 +12941,6 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E55_Type" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a>
                <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#broaderTransitive">
-      <h3>has broader transitive<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#broaderTransitive</p>
-      <div class="comment">
-         <span class="markdown">skos:broaderTransitive is a transitive superproperty of skos:broader.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> transitive</p>
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrowerTransitive"
-                  title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
-               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -13230,41 +12981,6 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
             <dt>is inverse of</dt>
             <dd>
                <a href="#/isCharacteristicTypeOf" title="http://w3id.org/dcri-ont/isCharacteristicTypeOf">is characteristic of type is characteristic of type</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#closeMatch">
-      <h3>has close match<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#closeMatch</p>
-      <div class="comment">
-         <span class="markdown">skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of "compound errors" when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> symmetric</p>
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#exactMatch" title="http://www.w3.org/2004/02/skos/core#exactMatch">has exact match</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -13364,6 +13080,38 @@ An instance of Condition State is specific to an instance of Physical Thing.
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"
                   title="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State">Condition State</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasConditionStateType">
+      <h3>has condition state type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <h3>has condition state type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/dcri-ont/hasConditionStateType</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/P2_has_type" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">has type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State">Condition State</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/ConditionStateType" title="http://w3id.org/dcri-ont/ConditionStateType">Condition State Type Condition State Type</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -13839,34 +13587,34 @@ It offers no information about how and when an E54 Dimension was established.
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#exactMatch">
-      <h3>has exact match<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="/hasDocumentType">
+      <h3>has document type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <h3>has document type<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#exactMatch</p>
-      <div class="comment">
-         <span class="markdown">skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
+         <strong>IRI:</strong> http://w3id.org/dcri-ont/hasDocumentType</p>
       <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> symmetric, transitive</p>
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/P2_has_type" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">has type</a>
                <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E31_Document">Document</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/DocumentType" title="http://w3id.org/dcri-ont/DocumentType">Document Type Document Type</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -14204,80 +13952,6 @@ Linguistic Objects are composed in one or more human Languages. This property al
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#member">
-      <h3>has member<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#member</p>
-      <div class="comment">
-         <span class="markdown">Relates a collection to one of its members.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#Collection" title="http://www.w3.org/2004/02/skos/core#Collection">Collection</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#memberList">
-      <h3>has member list<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#memberList</p>
-      <div class="comment">
-         <span class="markdown">For any resource, every item in the list given as the value of the
-      skos:memberList property is also a value of the skos:member property.</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">Relates an ordered collection to the RDF list containing its members.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> functional</p>
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#OrderedCollection"
-                  title="http://www.w3.org/2004/02/skos/core#OrderedCollection">Ordered Collection</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
-                  target="_blank"
-                  title="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">list</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">
       <h3>has modified<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -14325,80 +13999,6 @@ If a modification is applied to a non-man-made object, it is regarded as an E22 
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#narrower">
-      <h3>has narrower<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#narrower</p>
-      <div class="comment">
-         <span class="markdown">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">Relates a concept to a concept that is more specific in meaning.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrowerTransitive"
-                  title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrowMatch"
-                  title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#narrowMatch">
-      <h3>has narrower match<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#narrowMatch</p>
-      <div class="comment">
-         <span class="markdown">skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term">
       <h3>has narrower term<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -14417,47 +14017,6 @@ If a modification is applied to a non-man-made object, it is regarded as an E22 
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E55_Type" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a>
                <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
-      <h3>has narrower transitive<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#narrowerTransitive</p>
-      <div class="comment">
-         <span class="markdown">skos:narrowerTransitive is a transitive superproperty of skos:narrower.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> transitive</p>
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#narrower" title="http://www.w3.org/2004/02/skos/core#narrower">has narrower</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broaderTransitive"
-                  title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
-               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -14782,76 +14341,6 @@ The identity of an instance of E24 Physical Man-Made Thing is not defined by its
             <dt>is inverse of</dt>
             <dd>
                <a href="#/isQualitativeValueOf" title="http://w3id.org/dcri-ont/isQualitativeValueOf">is qualitative value of is qualitative value of</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#related">
-      <h3>has related<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#related</p>
-      <div class="comment">
-         <span class="markdown">skos:related is disjoint with skos:broaderTransitive</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">Relates a concept to a concept with which there is an associative semantic relationship.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> symmetric</p>
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#relatedMatch"
-                  title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#relatedMatch">
-      <h3>has related match<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#relatedMatch</p>
-      <div class="comment">
-         <span class="markdown">skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> symmetric</p>
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -15185,44 +14674,6 @@ It allows any man-made material or immaterial thing to be given a Title. It is p
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#hasTopConcept">
-      <h3>has top concept<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#hasTopConcept</p>
-      <div class="comment">
-         <span class="markdown">Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#topConceptOf"
-                  title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P73_has_translation">
       <h3>has translation<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -15277,16 +14728,16 @@ The CRM is intended to focus on the high-level entities and relationships needed
                <a href="#http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies"
                   title="http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies">exemplifies</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/hasActivityType" title="http://w3id.org/dcri-ont/hasActivityType">has activity type has activity type</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type has actor type</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasConditionStateType" title="http://w3id.org/dcri-ont/hasConditionStateType">has condition state type has condition state type</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/hasConservationAndRestorationInterventionSupplyType"
                   title="http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType">has conservation and restoration intervention supply type has conservation and restoration intervention supply type</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/hasConservationObjectType"
                   title="http://w3id.org/dcri-ont/hasConservationObjectType">has conservation object type has conservation object type</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/hasDocumentType" title="http://w3id.org/dcri-ont/hasDocumentType">has document type has document type</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/hasPhysicalFeatureType" title="http://w3id.org/dcri-ont/hasPhysicalFeatureType">has physical feature type has physical feature type</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/hasPlaceType" title="http://w3id.org/dcri-ont/hasPlaceType">has place type has place type</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/hasPlanType" title="http://w3id.org/dcri-ont/hasPlanType">has plan type has plan type</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/O9_observed_property_type"
-                  title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O9_observed_property_type">o9 observed property type</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
@@ -15706,6 +15157,17 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
          <strong>IRI:</strong> http://w3id.org/dcri-ont/isAboutCertainType</p>
       <div class="description">
          <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ConservationAndRestorationInterventionDecision-makingRequirement"
+                  title="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement">Conservation and Restoration Intervention Decision-making Requirement Conservation and Restoration Intervention Decision-making Requirement</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E55_Type" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dt>is inverse of</dt>
             <dd>
                <a href="#/isCertainTypeOf" title="http://w3id.org/dcri-ont/isCertainTypeOf">is certain type of is certain type of</a>
@@ -15759,6 +15221,10 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
+      <h3>is actor type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
       <p>
          <strong>IRI:</strong> http://w3id.org/dcri-ont/isActorTypeOf</p>
       <div class="description">
@@ -15781,7 +15247,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
             </dd>
             <dt>is inverse of</dt>
             <dd>
-               <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type</a>
+               <a href="#/hasActorType" title="http://w3id.org/dcri-ont/hasActorType">has actor type has actor type</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -16124,6 +15590,39 @@ The instances of E57 Material of which an item of E18 Physical Thing is composed
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"
                   title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/isConditionStateTypeOf">
+      <h3>is condition state type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <h3>is condition state type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/dcri-ont/isConditionStateTypeOf</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of"
+                  title="http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of">is type of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ConditionStateType" title="http://w3id.org/dcri-ont/ConditionStateType">Condition State Type Condition State Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State">Condition State</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -16645,6 +16144,39 @@ The instances of E57 Material of which an item of E18 Physical Thing is composed
          </dl>
       </div>
    </div>
+   <div class="entity" id="/isDocumentTypeOf">
+      <h3>is document type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <h3>is document type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/dcri-ont/isDocumentTypeOf</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of"
+                  title="http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of">is type of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/DocumentType" title="http://w3id.org/dcri-ont/DocumentType">Document Type Document Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E31_Document">Document</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in">
       <h3>is documented in<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -17058,121 +16590,6 @@ Examples of Place Appellations used to identify Places include instances of E48 
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#mappingRelation">
-      <h3>is in mapping relation with<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#mappingRelation</p>
-      <div class="comment">
-         <span class="markdown">These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice.</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">Relates two concepts coming, by convention, from different schemes, and that have comparable meanings</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#semanticRelation"
-                  title="http://www.w3.org/2004/02/skos/core#semanticRelation">is in semantic relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broadMatch" title="http://www.w3.org/2004/02/skos/core#broadMatch">has broader match</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">has close match</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#narrowMatch"
-                  title="http://www.w3.org/2004/02/skos/core#narrowMatch">has narrower match</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#relatedMatch"
-                  title="http://www.w3.org/2004/02/skos/core#relatedMatch">has related match</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#inScheme">
-      <h3>is in scheme<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#inScheme</p>
-      <div class="comment">
-         <span class="markdown">Relates a resource (for example a concept) to a concept scheme in which it is included.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#topConceptOf"
-                  title="http://www.w3.org/2004/02/skos/core#topConceptOf">is top concept in scheme</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#semanticRelation">
-      <h3>is in semantic relation with<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#semanticRelation</p>
-      <div class="comment">
-         <span class="markdown">Links a concept to a concept related by meaning.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has sub-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#broaderTransitive"
-                  title="http://www.w3.org/2004/02/skos/core#broaderTransitive">has broader transitive</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#narrowerTransitive"
-                  title="http://www.w3.org/2004/02/skos/core#narrowerTransitive">has narrower transitive</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#related" title="http://www.w3.org/2004/02/skos/core#related">has related</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/2004/02/skos/core#mappingRelation"
-                  title="http://www.w3.org/2004/02/skos/core#mappingRelation">is in mapping relation with</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in">
       <h3>is incorporated in<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -17580,6 +16997,12 @@ Examples of Place Appellations used to identify Places include instances of E48 
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"
                   title="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object">Physical Object</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP56_bears_feature_of_type"
+                  title="http://www.cidoc-crm.org/extensions/crmntp/TP56_bears_feature_of_type">TP56 bears feature of type</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -18341,49 +17764,6 @@ The Right is held by an E39 Actor as described by P75 possesses (is possessed by
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#topConceptOf">
-      <h3>is top concept in scheme<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#topConceptOf</p>
-      <div class="comment">
-         <span class="markdown">Relates a concept to the concept scheme that it is a top level concept of.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">is in scheme</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme"
-                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#http://www.w3.org/2004/02/skos/core#hasTopConcept"
-                  title="http://www.w3.org/2004/02/skos/core#hasTopConcept">has top concept</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P73i_is_translation_of">
       <h3>is translation of<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -18448,19 +17828,19 @@ The Right is held by an E39 Actor as described by P75 possesses (is possessed by
             <dt>has sub-properties</dt>
             <dd>
                <a href="#/isActivityTypeOf" title="http://w3id.org/dcri-ont/isActivityTypeOf">is activity type of is activity type of</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/isActorTypeOf" title="http://w3id.org/dcri-ont/isActorTypeOf">is actor type of is actor type of</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/isConditionStateTypeOf" title="http://w3id.org/dcri-ont/isConditionStateTypeOf">is condition state type of is condition state type of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/isConservationAndRestorationInterventionSupplyTypeOf"
                   title="http://w3id.org/dcri-ont/isConservationAndRestorationInterventionSupplyTypeOf">is conservation and restoration intervention supply type of is conservation and restoration intervention supply type of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/isConservationObjectTypeOf"
                   title="http://w3id.org/dcri-ont/isConservationObjectTypeOf">is conservation object type of is conservation object type of</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#/isDocumentTypeOf" title="http://w3id.org/dcri-ont/isDocumentTypeOf">is document type of is document type of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by"
                   title="http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by">is exemplified by</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/isPhysicalFeatureTypeOf"
                   title="http://w3id.org/dcri-ont/isPhysicalFeatureTypeOf">is physical feature type of is physical feature type of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/isPlaceTypeOf" title="http://w3id.org/dcri-ont/isPlaceTypeOf">is place type of is place type of</a>
                <sup class="type-op" title="object property">op</sup>, <a href="#/isPlanTypeOf" title="http://w3id.org/dcri-ont/isPlanTypeOf">is plan type of is plan type of</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/O9i_property_type_was_observed_by"
-                  title="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O9i_property_type_was_observed_by">o9i property type was observed by</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
@@ -18888,10 +18268,58 @@ Therefore the described destination is an instance of E53 Place which P89 falls 
          <strong>IRI:</strong> http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type</p>
       <div class="description">
          <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type"
+                  title="http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type">n t p35 has not identified condition state of type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"
                   title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">Attribute Assignment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type">
+      <h3>n t p35 has not identified condition state of type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"
+                  title="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type">n t p141 did not assign entity of type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment">Condition Assessment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type">
+      <h3>n t p44 does not have condition of type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -19152,11 +18580,6 @@ Therefore the described destination is an instance of E53 Place which P89 falls 
          <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/CRMsci/O9_observed_property_type</p>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.cidoc-crm.org/cidoc-crm/P2_has_type" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">has type</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"
@@ -19175,12 +18598,6 @@ Therefore the described destination is an instance of E53 Place which P89 falls 
          <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/CRMsci/O9i_property_type_was_observed_by</p>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="#http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of"
-                  title="http://www.cidoc-crm.org/cidoc-crm/P2i_is_type_of">is type of</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"
@@ -20611,10 +20028,58 @@ This property is only necessary if the time span is unknown (otherwise the relat
          <strong>IRI:</strong> http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type</p>
       <div class="description">
          <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type"
+                  title="http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type">t p35 has identified condition state of type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"
                   title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">Attribute Assignment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type">
+      <h3>t p35 has identified condition state of type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"
+                  title="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type">t p141 assigned entity of type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment">Condition Assessment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type">
+      <h3>t p44 has condition of type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -20751,6 +20216,12 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
                <a href="#http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"
                   title="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object">Physical Object</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/isPhysicalFeatureTypeFoundOn"
+                  title="http://w3id.org/dcri-ont/isPhysicalFeatureTypeFoundOn">is physical feature type found on is physical feature type found on</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -23252,9 +22723,6 @@ For example, the discovery of a large hoard of treasure may call for a celebrati
             title="http://www.cidoc-crm.org/cidoc-crm/P90_has_value">has value</a>
       </li>
       <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#notation" title="http://www.w3.org/2004/02/skos/core#notation">notation</a>
-      </li>
-      <li>
          <a href="#http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout"
             title="http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout">ongoing throughout</a>
       </li>
@@ -23639,23 +23107,6 @@ For a more complete description, objects may be decomposed into their components
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#notation">
-      <h3>notation<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#notation</p>
-      <div class="comment">
-         <span class="markdown">A notation, also known as classification code, is a string of characters such as "T58.5" or "303.4833" used to uniquely identify a concept within the scope of a given concept scheme.</span>
-      </div>
-      <dl class="definedBy">
-         <dt>Is defined by</dt>
-         <dd>
-            <a href="http://www.w3.org/2004/02/skos/core">http://www.w3.org/2004/02/skos/core</a>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/P81_ongoing_throughout">
       <h3>ongoing throughout<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -23775,6 +23226,18 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
                   title="http://w3id.org/dcri-ont/requiresDimensionValue">requires dimension value requires dimension value</a>
                <sup class="type-dp" title="data property">dp</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ConservationAndRestorationInterventionDecision-makingRequirement"
+                  title="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement">Conservation and Restoration Intervention Decision-making Requirement Conservation and Restoration Intervention Decision-making Requirement</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -23797,6 +23260,18 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
                   title="http://w3id.org/dcri-ont/requiresDimensionValue">requires dimension value requires dimension value</a>
                <sup class="type-dp" title="data property">dp</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/ConservationAndRestorationInterventionDecision-makingRequirement"
+                  title="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirement">Conservation and Restoration Intervention Decision-making Requirement Conservation and Restoration Intervention Decision-making Requirement</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -23812,13 +23287,7 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
     
 
 <!--REFERENCES SECTION-->
-  <div id="references">
-<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-Add your references here. It is recommended to have them as a list.</span>
-
-</div>
-<div id="acknowledgments">
+ <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
